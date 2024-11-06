@@ -1,3 +1,4 @@
+# Exercise 1 combining strings
 Word1 = "Coding"
 Word2 = " is" 
 Word3 = " Cool"

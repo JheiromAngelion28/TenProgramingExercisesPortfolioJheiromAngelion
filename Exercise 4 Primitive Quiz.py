@@ -1,5 +1,6 @@
+#Exercise 4 Pirimitive Quiz
 print('welcome! here are some questions about the capitals of countries and their names.')
-
+#Declaring the variables of all capitals or each country
 United_Kingdom = input("1. What is the Capital of the UK? ")
 France = input('2. What is the Capital of France? ')
 Austria = input('3. what is the Capital of Austria? ')
@@ -11,6 +12,7 @@ Finland = input('8. What is the Capital of Finland? ')
 Belarus = input('9. What is the capital of Belarus? ')
 Sweden = input('10. What is the Capital of Sweden? ')
 
+#Using If else statements along with a lower case function to make the answers case insensitive.
 if (United_Kingdom.lower()== 'london'):
     print('Correct! The answer is london.')
 else:
