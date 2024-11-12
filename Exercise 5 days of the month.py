@@ -1,5 +1,5 @@
-# Exercise 5 days of the month
-# Declaring a dictionary 
+#Exercise 5 
+#Making the Dictionary For the Months ff theyear
 dyear = {
         1: 31,
         2: 28,
@@ -15,7 +15,7 @@ dyear = {
         12: 31
     }
 
-# Using interger input along with nested if else 
+# Asking the user to input the numbers of the month. Using nested If else statements to tell if the Feb has 28 or 29 days
 dmonth = int(input("Please enter the number of the month: "))
 if 1 <= dmonth <= 12:
     if dmonth == 2:
