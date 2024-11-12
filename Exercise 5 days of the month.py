@@ -1,4 +1,5 @@
-
+# Exercise 5 days of the month
+# Declaring a dictionary 
 dyear = {
         1: 31,
         2: 28,
@@ -14,6 +15,7 @@ dyear = {
         12: 31
     }
 
+# Using interger input along with nested if else 
 dmonth = int(input("Please enter the number of the month: "))
 if 1 <= dmonth <= 12:
     if dmonth == 2:

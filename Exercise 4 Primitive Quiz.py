@@ -1,3 +1,5 @@
+# Exercise 4 primitive quiz
+# Declarng all variables and using if else statements along with converting all answers to lower case to make the answer case insensitive.
 print('welcome! here are some questions about the capitals of countries and their names.')
 
 United_Kingdom = input("1. What is the Capital of the UK? ")
