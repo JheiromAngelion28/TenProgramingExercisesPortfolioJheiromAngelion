@@ -10,7 +10,7 @@ max= 5
 while attempts < max:
     #Using If else Statements along with inputs, we are able to make the password attempt only 5 times
     if Password == input('Enter your password. The limit of attempts is 5. '):
-        print('correct password! Accese granted')
+        print('correct password! Access granted')
     else: 
         attempts += 1
         if attempts == max:
